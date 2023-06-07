@@ -1,0 +1,148 @@
+/* *****************CONTACT**************** */
+.contact{
+    display: flex;
+    gap: 13.5rem;
+}
+.contact_img{
+    width: 40%;
+}
+.contact_text{
+    width: 55%;
+}
+.contact_text > h2{
+    text-align: left;
+    margin-bottom: 4rem;
+}
+form{
+    margin-top: 5rem;
+    display: flex;
+    gap: 1.5rem;
+}
+form > input{
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    padding: 2.5rem;
+    width: 55%;
+    outline: none;
+}
+form > button{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 2.5rem 0;
+    width: 40%;
+    background: var(--main-color);
+    border-radius: 10px;
+}
+.h2_resC{
+    display: none;
+    margin-bottom: 10rem;
+}
+/* *****************RESPONSIVE 992**************** */
+@media screen and (max-width:992px) {
+    .contact_img > img{
+        width: 31.2rem;
+        height: 28rem;
+    }
+    .contact_text > h2{
+        margin-bottom: 0rem;
+    }
+    form{
+        margin-top: 3.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    form > input{
+        padding: 2.5rem;
+        width: 32.3rem;
+        outline: none;
+    }
+    form > button{
+        font-size: 16px;
+        line-height: 24px;
+        padding: 1.8rem 0;
+    }
+}
+/* *****************RESPONSIVE 767**************** */
+@media screen and (max-width:767px) {
+    .contact_img > img{
+        width: 23.3rem;
+        height: 21rem;
+    }
+    form{
+        margin-top: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    form > input{
+        padding: 1.5rem 2.5rem;
+        width: 20rem;
+        outline: none;
+    }
+    form > button{
+        font-size: 13px;
+        line-height: 20px;
+        padding: 1.5rem 0;
+    }
+}
+/* *****************RESPONSIVE 575**************** */
+@media screen and (max-width:575px) {
+    .h2_resC{
+        display: block;
+    }
+    .contact h2{
+        display: none;
+    }
+    .contact{
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact_img{
+        width: 100%;
+    }
+    .contact_text{
+        width: 83%;
+    }
+    .contact_img > img{
+        width: 36rem;
+        height: 32rem;
+    }
+    form{
+        gap: 1rem;
+    }
+    form > input{
+        padding: 2rem 2.5rem;
+        width: 60%;
+    }
+    form > button{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+/* *****************RESPONSIVE 320**************** */
+@media screen and (max-width:320px) {
+    .contact_text{
+        width: 100%;
+    }
+    .contact_img > img{
+        width: 25rem;
+        height: 22rem;
+    }
+    form{
+        display: block;
+        width: 100%;
+    }
+    form > input{
+        padding: 2rem 2.5rem;
+        width: 100%;
+        display: block;
+        margin-bottom: 2rem;
+    }
+    form > button{
+        display: block;
+        width: 100%;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

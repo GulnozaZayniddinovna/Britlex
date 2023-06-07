@@ -1,0 +1,146 @@
+/* *****************ABOUT**************** */
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about_text{
+    width: 46%;
+}
+.about_text > h2{
+    margin-bottom: 2.4rem;
+    text-align: left;
+}
+.about_img{
+    width: 45%;
+    height: 60rem;
+    position: relative;
+}
+.about_img > img{
+    height: 100%;
+    position: absolute;
+    top: -7rem;
+}
+.about_text p,.P{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+
+    color: #8F95A5;
+}
+.about_text span{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #2A3246;
+    display: block;
+    text-align: center;
+}
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+.h2_res{
+    display: none;
+}
+/* *****************RESPONSIVE 992**************** */
+@media screen and (max-width:992px) {
+    .about_img > img{
+        width: 33.6rem;
+        height: 33.6rem;
+        position: absolute;
+        top: 4rem;
+    }
+    .about_text p,.P{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about_text > h2{
+        margin-bottom: 0;
+        text-align: left;
+    }
+    .about_text span{
+        font-size: 30px;
+    }
+    .numbers{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+/* *****************RESPONSIVE 767**************** */
+@media screen and (max-width:767px) {
+    .about_img > img{
+        width: 29rem;
+        height: 29rem;
+        position: absolute;
+        top: 2rem;
+    }
+    .about_text p,.P{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .about_text span{
+        font-size: 22px;
+        line-height: 4rem;
+    }
+}
+/* *****************RESPONSIVE 575**************** */
+@media screen and (max-width:575px) {
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+    .about_text{
+        width: 100%;
+    }
+    .about_img{
+        width: 35rem;
+        height: 35rem;
+    }
+    .about_img > img{
+        width: 100%;
+        height: 100%;
+        position: none;
+    }
+    .numbers{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2.4rem;
+        margin-bottom: 2.4rem;
+    }
+    .about_text p,.P{
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+    }
+    .about_text > h2{
+        display: none;
+    }
+    .h2_res{
+        display: block;
+    }
+}
+/* *****************RESPONSIVE 320**************** */
+@media screen and (max-width:320px) {
+    .about_img{
+        width: 28rem;
+        height: 28rem;
+    }
+    .about_img > img{
+        width: 100%;
+        height: 100%;
+        position: none;
+    }
+    .numbers{
+        display: block;
+        justify-content: space-around;
+        margin-top: 2.4rem;
+        margin-bottom: 2.4rem;
+    }
+}
+
+

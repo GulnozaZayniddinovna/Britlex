@@ -1,0 +1,258 @@
+/* *****************SKILL**************** */
+.skill_main{
+    display: flex;
+    gap: 1.8rem;
+    margin-top: 10rem;
+    margin-bottom: 20rem;
+}
+.skill_speaking{
+    width: 33%;
+    background-color: #f5f5f5;
+    padding: 6rem 4.5rem 0 4.5rem;
+}
+.skill_speaking > h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.skill_writing{
+    width: 49%;
+    background-color: #f5f5f5;
+    padding: 0 2rem 4.5rem 4rem;
+}
+.skill_reading{
+    width: 49%;
+    background-color: #f5f5f5;
+    padding: 0 2rem 4.5rem 4rem;
+}
+.skill_listening{
+    width: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    padding: 0 2rem 4.5rem 4rem;
+}
+.listening_text{
+    width: 50%;
+}
+.listening_img{
+    width: 50%;
+}
+.skill_right{
+    width: 66%;
+}
+.skill_top{
+    display: flex;
+    gap: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+.skill_btn{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: #FFFFFF;
+    background: #263238;
+    border-radius: 5px;
+    padding: 1.7rem 6.5rem;
+    margin-top: 3.5rem;
+}
+.skill_reading > img{
+    width: 30rem;
+    height: 30rem;
+}
+.skill_writing > img{
+    width: 30rem;
+    height: 30rem;
+}
+.skill_p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #8F95A5;
+}
+/* *****************RESPONSIVE 992**************** */
+@media screen and (max-width:992px) {
+    .skill_main{
+        gap: 1.3rem;
+    }
+    .skill_speaking{
+        padding: 4rem 1.3rem 0 3rem;
+    }
+    .skill_speaking img{
+        width: 26rem;
+        height: 26rem;
+    }
+    .skill_top{
+        gap: 1.3rem;
+        margin-bottom: 1.3rem;
+    }
+    .skill_btn{
+        padding: 2rem 4rem;
+    }
+    .skill_writing{
+        padding: 4rem 1.3rem 3rem 3rem;
+    }
+    .skill_reading{
+        padding: 4rem 1.3rem 3rem 3rem;
+    }
+    .skill_listening{
+        padding: 4rem 1.3rem 3rem 3rem;
+    }
+    .skill_writing img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .skill_reading img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .skill_p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+/* *****************RESPONSIVE 767**************** */
+@media screen and (max-width:767px) {
+    .skill_main{
+        gap: 1rem;
+    }
+    .skill_speaking{
+        padding: 3rem 1rem 2.7rem 1.7rem;
+    }
+    .skill_speaking img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .skill_top{
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    .skill_btn{
+        font-size: 16px;
+        line-height: 24px;
+        padding: 1.4rem 4rem;
+        margin-top: 1.5rem;
+    }
+    .skill_writing{
+        padding: 3rem 1rem 2.7rem 1.7rem;
+    }
+    .skill_reading{
+        padding: 3rem 1rem 2.7rem 1.7rem;
+    }
+    .skill_listening{
+        padding: 3rem 1rem 2.7rem 1.7rem;
+    }
+    .skill_writing img{
+        width: 18rem;
+        height: 18rem;
+    }
+    .skill_reading img{
+        width: 18rem;
+        height: 18rem;
+    }
+    .skill_p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .listening_img > img{
+        top: 10rem;
+        position: absolute;
+    }
+    .listening_img{
+        width: 20rem;
+        position: relative;
+    }
+    .listening_text{
+        width: 100%;
+    }
+}
+/* *****************RESPONSIVE 575**************** */
+@media screen and (max-width:575px) {
+    .skill{
+        display: none;
+    }
+    .skill575{
+        display: block;
+    }
+    .skill_main{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+    .skill_speaking{
+        width: 47.06188%;
+    }
+    .skill_speaking > h3{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    .skill_writing{
+        width: 47.06188%;
+    }
+    .skill_reading{
+        width: 47.06188%;
+    }
+    .skill_listening{
+        width: 47.06188%;
+        display: block;
+    }
+    .skill_listening > button{
+        margin-top: 3.5rem;
+    }
+    .skill_writing > button{
+        margin-top: 11.5rem;
+    }
+    .skill575 img{
+        width: 185px;
+        height: 185px;
+    }
+    .skill_btn{
+        display: block;
+        width: 100%;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .skill_p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+/* *****************RESPONSIVE 320**************** */
+@media screen and (max-width:320px) {
+    .skill_speaking{
+        width: 100%;
+    }
+    .skill_speaking > h3{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    .skill_writing{
+        width: 100%;
+    }
+    .skill_reading{
+        width: 100%;;
+    }
+    .skill_listening{
+        width: 100%;;
+        display: block;
+    }
+    .skill_listening > button{
+        margin-top: 3.5rem;
+    }
+    .skill_writing > button{
+        margin-top: 3.5rem;
+    }
+    .skill575 img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .skill_btn{
+        display: block;
+        width: 100%;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .skill_p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+}

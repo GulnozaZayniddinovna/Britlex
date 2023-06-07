@@ -1,0 +1,128 @@
+/* *****************FONT**************** */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+/* font-family:'Poppins' */
+/* *****************COLOR**************** */
+:root{
+    --main-color:#263238;
+    --p-color:#8F95A5;
+    --third-main-color:#2A3246;
+}
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+button{
+    border: none;
+    background:none;
+    cursor: pointer;
+}
+.container{
+    max-width: 136rem;
+    margin: 0 auto;
+}
+h2{
+    font-weight: 600;
+    font-size: 4.8rem;
+    line-height: 8rem;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+h3{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: var(--main-color);
+}
+.skill575{
+    display: none;
+}
+/* *****************RESPONSIVE 992**************** */
+@media screen and (max-width:992px) {
+    .container{
+        max-width: 932px;
+        margin: 0 auto;
+    }
+    body{
+        margin: 0 auto;
+    }
+    h2{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 80px;
+    }
+    h3{
+        font-size: 22px;
+        line-height: 34px;
+        margin-bottom: 2rem;
+    }
+}
+/* *****************RESPONSIVE 767**************** */
+@media screen and (max-width:767px) {
+    .container{
+        max-width: 707px;
+        margin: 0 auto;
+    }
+    body{
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 30px;
+        line-height: 80px;
+    }
+    h3{
+        font-size: 20px;
+        margin-bottom: 0rem;
+    }
+}
+/* *****************RESPONSIVE 575**************** */
+@media screen and (max-width:575px) {
+    .container{
+        max-width: 515px;
+        margin: 0 auto;
+    }
+    body{
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 30px;
+        line-height: 80px
+    }
+    h3{
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+/* *****************RESPONSIVE 320**************** */
+@media screen and (max-width:320px) {
+    .container{
+        max-width: 29rem;
+        margin: 0 auto;
+    }
+    body{
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 24px;
+        line-height: 80px;
+    }
+    h3{
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+
+
